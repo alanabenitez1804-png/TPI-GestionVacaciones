@@ -35,7 +35,7 @@ El bot guía al usuario paso a paso:
 - Ingresar número de legajo
 - Ingresar fecha de inicio de vacaciones
 - Ingresar cantidad de días solicitados
-- Si tiene saldo: el Jefe de Área aprueba o rechaza
+- Si tiene dias: el Jefe de Área aprueba o rechaza
 - El resultado queda registrado automáticamente en `solicitudes.csv`
 
 ## Empleados de prueba
