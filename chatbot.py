@@ -47,7 +47,7 @@ def buscar_empleado(legajo):
 def registrar_solicitud(legajo, nombre, fecha_inicio, dias, estado_solicitud):
     """
     Registra una solicitud en solicitudes.csv.
-    Estado posible: APROBADA | RECHAZADA-SinSaldo | RECHAZADA-Jefe
+    Estado posible: APROBADA | RECHAZADA-SinDiasDisponibles | RECHAZADA-Jefe
     """
     encabezados = ["ID", "Legajo", "Nombre", "Fecha_Inicio",
                    "Dias_Solicitados", "Estado"]
